@@ -29,7 +29,7 @@ void Stack::push(ItemType item)
     structure[length] = item;
     length++;
   } else {
-    throw "Stack is already full!";
+    throw "Stack is already full!"; // erro não está imprimindo no console
   }
 }
 

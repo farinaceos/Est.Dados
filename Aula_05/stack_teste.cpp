@@ -8,14 +8,14 @@ int main() {
   Stack stack;
   ItemType stackItem;
   
-  cout << "Adicione uma String." << endl;     
+  cout << "Adicione uma String" << endl;     
   cin.get(character);
   while (character != '\n')
     {
       stack.push(character);
       cin.get(character);
     }
-  
+  cout << "Sua string invertida fica:" << endl;
   while (!stack.isEmpty())
     {
       stackItem = stack.pop();

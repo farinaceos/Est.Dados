@@ -1,6 +1,6 @@
 #include "item_type.h"
 
-const int MAX_ITEMS = 100;
+const int MAX_ITEMS = 1500; // alterei o numero de itens na pilha para verificar o comportamento do programa
 
 class Stack {
  public:
